@@ -5,10 +5,8 @@
   "author" : "Gart Flores <gartflores@gmail.com>",
   "main"    : "main.js",
   "repository" : {
-
   	"type" : "git",
   	"url" : "https://github.com/devstackio/devstackcoder.git"
-
   },
   "bugs" : {
   	"url" : "https://github.com/devstackio/devstackcoder.git/issues"
@@ -16,5 +14,8 @@
   "devDependencies" : {
   	"electron-prebuilt" : "0.33.0"
   },
-  "license" : "MIT"
+  "license" : "MIT",
+  "scripts" : {
+    "start" : "electron ."
+  }
 }
